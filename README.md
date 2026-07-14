@@ -16,7 +16,7 @@ It supports both a fast, 100% offline Native Windows OCR, and a high-accuracy Cl
 ## The `smartocr.exe` Utility (CLI)
 `smartocr.exe` is designed to be easily called from legacy systems like PowerBuilder. It accepts two parameters:
 1. **Image Path**: The absolute path to the KTP/Passport/SIM image.
-2. **Secret Code** (Optional): Passing `"wawn1782"` activates the High-Accuracy Cloud AI mode.
+2. **Secret Code** (Optional): Passing `"[your_secret_code]"` activates the High-Accuracy Cloud AI mode.
 
 ### Usage
 ```cmd
@@ -30,8 +30,8 @@ If you run without the secret code, the utility automatically runs 100% offline 
 - **Cons:** Accuracy drops on blurry text. Outputs raw multiline text instead of formatted pipes.
 
 #### Cloud AI Mode
-If you pass the secret code `"wawn1782"`, it activates the AI engine (`agy.exe`) for advanced processing.
-- **Command:** `smartocr.exe "C:\path\to\document.jpg" wawn1782`
+If you pass the secret code `"[your_secret_code]"`, it activates the AI engine (`agy.exe`) for advanced processing.
+- **Command:** `smartocr.exe "C:\path\to\document.jpg" [your_secret_code]`
 - **Pros:** 100% accurate, automatically formats data into structured pipe-delimited (`|`) values, immune to bad fonts or blurry text. Supports KTP, Passport, and SIM.
 - **Cons:** Requires an active internet connection.
 
