@@ -54,7 +54,9 @@ The library files and workspaces are packaged inside the `demo-pb` directory.
 - Sample scripts and code snippets for invoking the OCR tool from custom events are documented in `pb_script.txt`.
 
 ### Demo Documents for Testing
-The `demo-pb` folder contains sample files that you can use to test the OCR engine:
+The `demo-pb` folder contains sample files that you can use to test the OCR engine.
+
+*(Note: The sample passport and driver's license images utilized for testing are sourced from public search engines like Google Images. Since these documents are publicly accessible on the internet, they do not require special privacy redaction).*
 
 - **KTP Sample**:
   ![KTP Sample](demo-pb/demo-ktp.jpg)
