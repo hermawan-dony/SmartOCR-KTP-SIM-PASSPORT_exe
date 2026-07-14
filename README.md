@@ -37,10 +37,12 @@ smartocr.exe "C:\path\to\document.jpg" [secret_code]
 ## 2. `smartocr_server.exe` (Portable PWA Server)
 Aplikasi WinForms mandiri yang berfungsi sebagai Web Server lokal. Server ini menyediakan **PWA Mobile Web App** sehingga operator/sales Anda dapat memotret dokumen menggunakan kamera smartphone Android/iOS, lalu mengunggahnya secara langsung ke folder PC Windows Anda melalui jaringan Wi-Fi lokal.
 
-### Fitur Utama:
-* **Tanpa Setup**: Tidak perlu IIS, Apache, Nginx, maupun Database.
-* **Auto QR Code**: Scan QR Code di layar server menggunakan HP untuk membuka Web App kamera instan.
-* **Kamera & Auto Crop**: Antarmuka kamera seluler ter-embed pemotong gambar (crop) otomatis.
+### Fitur & Kelebihan:
+* **Tanpa Setup**: Berjalan sebagai berkas executable mandiri (*standalone*), tidak memerlukan IIS, Apache, Nginx, atau database.
+* **Port & Folder Kustom**: Atur port web server dan folder penyimpanan file hasil jepretan kamera langsung dari tampilan aplikasi (UI).
+* **Auto-run Startup Windows**: Cukup centang opsi di aplikasi untuk menjalankannya secara otomatis setiap kali komputer Windows dinyalakan.
+* **QR Code & Daftar IP**: Menghasilkan QR Code secara otomatis saat server berjalan. Cukup scan menggunakan smartphone untuk membuka aplikasi web instan.
+* **Kompatibilitas PWA (Progressive Web App)**: Dapat diinstal langsung ke beranda (*home screen*) perangkat iOS dan Android sebagai aplikasi mandiri yang terintegrasi dengan kamera ponsel bawaan.
 
 ---
 
