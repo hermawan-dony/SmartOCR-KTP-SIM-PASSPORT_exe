@@ -45,7 +45,7 @@ Aplikasi WinForms mandiri yang berfungsi sebagai Web Server lokal. Server ini me
 ---
 
 ### Gambar Contoh Uji Coba (Dapat Diunduh di Folder demo-pb):
-*(Note: The sample passport and driver's license images utilized for testing are sourced from public search engines like Google Images. Since these documents are publicly accessible on the internet, they do not require special privacy redaction).*
+*(Catatan: Gambar contoh Paspor dan SIM yang digunakan untuk pengujian ini bersumber dari mesin pencari publik seperti Google Images. Karena dokumen-dokumen tersebut dapat diakses secara publik di internet, dokumen tersebut tidak memerlukan sensor privasi khusus).*
 
 - **KTP Sample**:
   ![KTP Sample](demo-pb/demo-ktp.jpg)
@@ -69,6 +69,5 @@ Aplikasi WinForms mandiri yang berfungsi sebagai Web Server lokal. Server ini me
 
 ### 💼 Dapatkan Layanan Profesional Kami:
 1. Full Source Code Project (C# & PowerBuilder).
-2. Setup API Key Cloud AI Gemini berbiaya rendah dan stabil.
-3. Kustomisasi jenis dokumen lain sesuai kebutuhan bisnis Anda.
+2. Kustomisasi jenis dokumen lain sesuai kebutuhan bisnis Anda.
 4. **Hubungi WhatsApp: [0851-7172-1782](https://wa.me/6285171721782)**
